@@ -27,7 +27,7 @@ constructor(props){
     console.log("the city to be searched for is : "+city);
     console.log("the country to be searched for is : "+country);
 
-    const API_ADDRESS = 'https://api.openweathermap.org/data/2.5/weather?q='+city+','+country+'&APPID=58cebff1c2adc7430483137b91152a73';
+    const API_ADDRESS = 'https://api.openweathermap.org/data/2.5/weather?q='+city+','+country+'&APPID=YOURIPADDRESS';
 
     let response =  fetch(API_ADDRESS)
     .then(response => response.json())
